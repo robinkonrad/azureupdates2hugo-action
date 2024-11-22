@@ -3,7 +3,7 @@
 
  ## Usage
 ```yaml
-- uses: robinkonrad/azureupdates2hugo-action@v1
+- uses: robinkonrad/azureupdates2hugo-action@v2
 ```
 By default two files are produced during execution of the action
 - XML-Raw Output into /data/azureupdatesfeed.xml
@@ -12,7 +12,7 @@ By default two files are produced during execution of the action
 ## Parameters
 You can change the output filenames, if you specifiy the following parameters
 ```yaml
-- usses: robinkonrad/azureupdates2hugo-action@v1
+- usses: robinkonrad/azureupdates2hugo-action@v2
   with:
     filename: CustomJsonFile.json
     # Final path:     ./data/CustomJsonFile.json
